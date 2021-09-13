@@ -6,7 +6,7 @@ from shorten_url.models import ShortUrlModel
 class ShortUrlModelUnitTests(TestCase):
     def setUp(self):
         self.data = dict(
-            url='https://github.com/Fantaso/todo-app-django-rest-api',
+            url='https://pomodoro-tracker.com/',
             short_id='Shy7s3',
         )
 

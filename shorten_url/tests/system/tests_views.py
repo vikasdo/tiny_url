@@ -8,7 +8,7 @@ class ShortenUrlViewTests(APITestCase):
     def setUp(self):
         self.shorten_url = reverse('shorten_url')
         self.data = dict(
-            url='https://github.com/Fantaso/todo-app-django-rest-api',
+            url='https://pomodoro-tracker.com/',
         )
 
     def test_shorten_url(self):
